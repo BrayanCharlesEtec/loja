@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>CRUD - Loja</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Bem vindo ao meu site com crud</h1>
-    <h2>Brayan Charles & Arthur Prado</h2>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.php">CRUD Loja</a>
+    <div>
+      <a class="btn btn-outline-light me-2" href="form_cadastrar.php">Cadastrar</a>
+      <a class="btn btn-warning" href="listar.php">Listar</a>
+    </div>
+  </div>
+</nav>
+<div class="container py-4">
